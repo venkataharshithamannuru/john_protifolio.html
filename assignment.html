@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>John Doe's Web Portfolio</title>
+</head>
+<body>
+
+<h2 align="center">John Doe's Web Portfolio</h2>
+<p align="center">Showcasing HTML skills using Tables</p>
+<p align="center">
+    <a href="#about">About</a> |
+    <a href="#skills">Skills</a> |
+    <a href="#projects">Projects</a> |
+    <a href="#contact">Contact</a>
+</p>
+
+<hr>
+
+<!-- Main Table Layout -->
+<table border="1" width="100%" cellspacing="0" cellpadding="10">
+    <!-- About Row -->
+    <tr>
+        <td colspan="2" id="about">
+            <h3>About</h3>
+            <p>Hello! I'm John Doe, a passionate web developer. I love building simple semantic, accessible and responsive websites using core web technologies.</p>
+            <p>I specialize in front-end development, especially HTML, CSS, and JavaScript.</p>
+        </td>
+    </tr>
+
+    <!-- Skills and Projects Row -->
+    <tr>
+        <!-- Skills Column -->
+        <td width="50%" valign="top" id="skills">
+            <h3>Skills</h3>
+            <ul>
+                <li>HTML5 and CSS</li>
+                <li>JavaScript</li>
+                <li>Responsive Design</li>
+                <li>Git & GitHub</li>
+            </ul>
+
+            <h4>Skills Levels</h4>
+            <table border="1" cellpadding="5" cellspacing="0">
+                <tr>
+                    <th>SKILLS</th>
+                    <th>LEVELS</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>Expert</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Advanced</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Intermediate</td>
+                </tr>
+            </table>
+        </td>
+
+        <!-- Projects Column -->
+        <td width="50%" valign="top" id="projects">
+            <h3>Project</h3>
+            <ol >
+                <li><b>Portfolio</b> portfolio built using pure HTML and CSS</li>
+                <li><b>Todo App</b>   todo app built using pure HTML and CSS</li>
+                <li><b>Weather App</b> weather app built using pure HTML and CSS</li>
+            </ol>
+
+            <h4>Screenshot</h4>
+            <p>[Project Preview]</p>
+        </td>
+    </tr>
+
+    <!-- Contact Row -->
+    <tr>
+        <td colspan="2" id="contact">
+            <h3>Contact</h3>
+            <h3 id="contact">Contact Me</h3>
+<form>
+    <label>Full Name:</label><br>
+    <input type="text" name="fullname"><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email"><br><br>
+
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female<br><br>
+
+    <label>Service Required:</label>
+    <select name="service">
+        <option>Web Design</option>
+        <option>SEO</option>
+    </select><br><br>
+
+    <label>Country:</label>
+    <input type="text" name="country" value="USA"><br><br>
+
+    <label>Message:</label><br>
+    <textarea name="message" rows="4" cols="30"></textarea><br><br>
+
+    <input type="submit" value="Send">
+    <input type="reset" value="Clear">
+</form>
+
+            
